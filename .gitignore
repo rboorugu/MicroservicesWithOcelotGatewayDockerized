@@ -1,0 +1,9 @@
+Delaware Administrative Code
+.vs/
+.vscode/
+packages/
+bin/
+obj/
+UpgradeLog.htm
+/WK-Parser/Properties/launchSettings.json
+*csproj.user

@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  gatewayapi:
+    image: gatewayapi:latest
+    build:
+      context: .
+      dockerfile: GatewayAPI/Dockerfile
+    container_name: gatewayapi
+
+  playersapi:
+    image: playersapi:latest
+    build:
+      context: .
+      dockerfile: PlayersAPI/Dockerfile
+    container_name: playersapi
+
+  sportsapi:
+    image: sportsapi:latest
+    build:
+      context: .
+      dockerfile: SportsAPI/Dockerfile
+    container_name: sportsapi
